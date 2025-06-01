@@ -1,128 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dilmurod | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dilmurod | Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0f172a;
-      color: #f1f5f9;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+
     header {
       background-color: #1e293b;
-      padding: 30px;
+      padding: 2rem;
       text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
-    h1 {
+
+    header h1 {
       font-size: 2.5rem;
-      margin: 0;
+      margin-bottom: 0.5rem;
     }
-    h2 {
+
+    header p {
+      font-size: 1.2rem;
+      color: #94a3b8;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    section h2 {
       color: #38bdf8;
+      margin-bottom: 1rem;
     }
-    .section {
-      padding: 20px 40px;
-      max-width: 900px;
-      margin: auto;
-    }
+
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 10px;
     }
+
     th, td {
-      border: 1px solid #334155;
-      padding: 10px;
-      text-align: left;
+      padding: 0.75rem;
+      border-bottom: 1px solid #334155;
     }
+
     th {
-      background-color: #1e293b;
+      text-align: left;
+      color: #e2e8f0;
     }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
     a {
       color: #38bdf8;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
-    .footer {
+
+    footer {
       text-align: center;
-      padding: 30px;
-      background-color: #1e293b;
-      margin-top: 40px;
+      padding: 2rem;
       font-size: 0.9rem;
+      color: #94a3b8;
+      background-color: #1e293b;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>👋 Hi, I'm Dilmurod</h1>
+    <h1>Dilmurod</h1>
     <p>Software Developer | Programming Instructor</p>
   </header>
 
-  <div class="section">
-    <h2>🧠 My Experience</h2>
-    <table>
-      <tr>
-        <th>Technology</th>
-        <th>Experience</th>
-      </tr>
-      <tr><td>General Programming</td><td>4.5+ years</td></tr>
-      <tr><td>Python</td><td>4.5 years</td></tr>
-      <tr><td>C Programming</td><td>4.5 years</td></tr>
-      <tr><td>Flutter</td><td>1.5 years</td></tr>
-      <tr><td>Dart</td><td>1.5 years</td></tr>
-      <tr><td>Django</td><td>0.5 year</td></tr>
-      <tr><td>SQL (general)</td><td>4 years</td></tr>
-      <tr><td>MySQL</td><td>3 years</td></tr>
-      <tr><td>PostgreSQL</td><td>0.5 year</td></tr>
-      <tr><td>SQLite3</td><td>2 years</td></tr>
-    </table>
-  </div>
+  <main class="container">
+    <section>
+      <h2>Experience</h2>
+      <table>
+        <tr><th>Skill</th><th>Duration</th></tr>
+        <tr><td>General Programming</td><td>4.5+ years</td></tr>
+        <tr><td>Python</td><td>4.5 years</td></tr>
+        <tr><td>C</td><td>4.5 years</td></tr>
+        <tr><td>Dart</td><td>1.5 years</td></tr>
+        <tr><td>Flutter</td><td>1.5 years</td></tr>
+        <tr><td>Django</td><td>0.5 year</td></tr>
+        <tr><td>SQL</td><td>4 years</td></tr>
+        <tr><td>MySQL</td><td>3 years</td></tr>
+        <tr><td>PostgreSQL</td><td>0.5 year</td></tr>
+        <tr><td>SQLite3</td><td>2 years</td></tr>
+      </table>
+    </section>
 
-  <div class="section">
-    <h2>🧑‍🏫 Teaching</h2>
-    <p>I have been teaching <strong>C</strong> and <strong>Python</strong> for over 3 years, focusing on beginner-friendly, real-world examples.</p>
-  </div>
+    <section>
+      <h2>Teaching</h2>
+      <p>I have 3+ years of experience teaching programming, mainly focusing on C and Python with hands-on, beginner-friendly methods.</p>
+    </section>
 
-  <div class="section">
-    <h2>🛠 Technologies</h2>
-    <ul>
-      <li>Frontend: Flutter, Dart, HTML, CSS</li>
-      <li>Backend: Python, Django, REST APIs</li>
-      <li>Databases: MySQL, PostgreSQL, SQLite3</li>
-      <li>State Management: BLoC, Cubit</li>
-      <li>Tools: Git, GitHub, Linux</li>
-    </ul>
-  </div>
+    <section>
+      <h2>Technologies</h2>
+      <ul>
+        <li>Frontend: Flutter, Dart, HTML, CSS</li>
+        <li>Backend: Python, Django, REST APIs</li>
+        <li>Databases: MySQL, PostgreSQL, SQLite3</li>
+        <li>State Management: BLoC, Cubit</li>
+        <li>Tools: Git, GitHub, Linux</li>
+      </ul>
+    </section>
 
-  <div class="section">
-    <h2>🤝 Collaborations</h2>
-    <p>I'm open to working on:</p>
-    <ul>
-      <li>Full-stack projects using Flutter + Django</li>
-      <li>Open-source contributions</li>
-      <li>Freelance or mentoring opportunities</li>
-    </ul>
-  </div>
+    <section>
+      <h2>Contact</h2>
+      <ul>
+        <li>Telegram: <a href="https://t.me/yourtelegram">@yourtelegram</a></li>
+        <li>Email: <a href="mailto:your.email@gmail.com">your.email@gmail.com</a></li>
+        <li>Website: <a href="https://your-website.com">your-website.com</a></li>
+      </ul>
+    </section>
+  </main>
 
-  <div class="section">
-    <h2>📫 Contact Me</h2>
-    <ul>
-      <li>Telegram: <a href="https://t.me/yourtelegram" target="_blank">@yourtelegram</a></li>
-      <li>Email: <a href="mailto:your.email@gmail.com">your.email@gmail.com</a></li>
-      <li>Portfolio: <a href="https://your-website.com" target="_blank">your-website.com</a></li>
-    </ul>
-  </div>
-
-  <div class="footer">
-    © 2025 Dilmurod – Let's build something amazing together! 🔥
-  </div>
-
+  <footer>
+    © 2025 Dilmurod — Let’s create together.
+  </footer>
 </body>
 </html>
