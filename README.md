@@ -21,6 +21,7 @@ I'm a passionate and experienced software developer with over 4.5 years of exper
 - Experienced in teaching beginners and helping them grow in tech
 - 
 ####### 🛠 Technologies I Use  #######
+
 **Frontend & Mobile Development**  
 - Flutter, Dart  
 - HTML, CSS
