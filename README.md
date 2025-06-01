@@ -1,7 +1,7 @@
 ####### 👋 Hi, I'm Dilmurod
 
 I'm a passionate and experienced software developer with over 4.5 years of experience in programming. I’ve also been teaching C and Python for more than 3 years, helping beginners build strong foundations. I enjoy creating practical, scalable solutions using modern technologies.
-## 🧠 My Experience (by years)
+ <h2>💬 My Experience (by years)</h2>
 | Field / Technology        | Experience       |
 |---------------------------|------------------|
 | **General Programming**   | 4.5+ years        |
