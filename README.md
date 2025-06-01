@@ -25,13 +25,17 @@ I'm a passionate and experienced software developer with over 4.5 years of exper
 **Frontend & Mobile Development**  
 - Flutter, Dart  
 - HTML, CSS
+
 **Backend Development**  
 - Python, Django  
 - RESTful API
+  
 **Databases**
-- SQL, MySQL, PostgreSQL, SQLite3  
+- SQL, MySQL, PostgreSQL, SQLite3
+  
 **State Management (Flutter)**  
 - BLoC, Cubit
+  
 **Tools & Environment**  
 - Git & GitHub  
 - Linux (Terminal, Shell)
