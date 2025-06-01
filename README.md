@@ -12,37 +12,37 @@
       padding: 0;
     }
 
-    body {
+  body {
       font-family: 'Inter', sans-serif;
       background-color: #0f172a;
       color: #f8fafc;
       line-height: 1.6;
     }
 
-    header {
+  header {
       background-color: #1e293b;
       padding: 2rem;
       text-align: center;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
-    header h1 {
+  header h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
 
-    header p {
+  header p {
       font-size: 1.2rem;
       color: #94a3b8;
     }
 
-    .container {
+  .container {
       max-width: 1000px;
       margin: 2rem auto;
       padding: 0 1.5rem;
     }
 
-    section {
+  section {
       margin-bottom: 2.5rem;
       background-color: #1e293b;
       padding: 1.5rem;
@@ -50,41 +50,41 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
 
-    section h2 {
+  section h2 {
       color: #38bdf8;
       margin-bottom: 1rem;
     }
 
-    table {
+  table {
       width: 100%;
       border-collapse: collapse;
     }
 
-    th, td {
+  th, td {
       padding: 0.75rem;
       border-bottom: 1px solid #334155;
     }
 
-    th {
+  th {
       text-align: left;
       color: #e2e8f0;
     }
 
-    ul {
+  ul {
       list-style-type: disc;
       padding-left: 1.5rem;
     }
 
-    a {
+   a {
       color: #38bdf8;
       text-decoration: none;
     }
 
-    a:hover {
+   a:hover {
       text-decoration: underline;
     }
 
-    footer {
+   footer {
       text-align: center;
       padding: 2rem;
       font-size: 0.9rem;
@@ -117,12 +117,12 @@
       </table>
     </section>
 
-    <section>
+  <section>
       <h2>Teaching</h2>
       <p>I have 3+ years of experience teaching programming, mainly focusing on C and Python with hands-on, beginner-friendly methods.</p>
     </section>
 
-    <section>
+   <section>
       <h2>Technologies</h2>
       <ul>
         <li>Frontend: Flutter, Dart, HTML, CSS</li>
@@ -133,7 +133,7 @@
       </ul>
     </section>
 
-    <section>
+   <section>
       <h2>Contact</h2>
       <ul>
         <li>Telegram: <a href="https://t.me/yourtelegram">@yourtelegram</a></li>
