@@ -58,6 +58,6 @@ I'm a passionate and experienced software developer with over 4.5 years of exper
 - Teaching programming courses
  
 ####### 📫 Aloqa uchun   #######
-- 📬 Telegram: ...................  
+- 📬 Telegram: @Dilmurod_IshProfil  
 - 📧 Email: dilmurodqurbonov2002@gmail.com  
 - 🌐 Portfolio: ..................
